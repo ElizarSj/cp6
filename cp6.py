@@ -33,5 +33,45 @@ Power=3 Intelligence=4 Fountain=0 Gilled=0 \n PackMon=0" >> politoed0
 echo -e "weight=7.3 height=71.0 atk=6 \n def=5" >> dratini
 echo -e "Ходы block Earth Power Gravity Iron Defense Sleep \n Talk 
 Snore Stealth Rock" >> roggenrola2
-
-
+chmod o-x bibarel4
+cd bibarel4
+chmod 737 geodude
+chmod 640 totodle
+chmod 044 scizor
+chmod 604 mightyena
+cd ..
+chmod 551 crphish1
+cd crphish1
+chmod 737 porygon
+chmod 666 mismagius
+chmod 752 skorupi
+cd ..
+chmod 046 granbull
+chmod 422 politoed0
+chmod 770 rampardos6
+cd rampardos6
+chmod 576 sceptle
+chmod 524 piloswine
+chmod 305 hypno
+chmod 640 dratini
+cd ..
+ln  rampardos6/dratiniroggenrola roggenrola2
+ln –s Copy_97 corphish1
+ln –s bibarel4/scizorroggenrola roggenrola2
+bibarel4/scizor bibarel4/scizor > politoed0_56
+cat politoed0 > bibarel4/scizorpolitoed
+cd rampardos6
+chmod 705 dratiniroggenrola
+chmod 705 hypno
+cd ..
+cp -R rampardos6 crphish1/porygon
+cd crphish1/porygon
+cp -R rampardos6 crphish1/porygon
+chmod 777 granbull
+cp granbull crphish1/skorupi
+wc -l t granbull >> granbull 2>>granbull
+ls -lR lab0 2>/dev/null | grep "to" | sort -k2,2nr | tail -n 
+cat granbull 2>&1 | sort
+ls -R corphish1 | grep -v "^corphish1$" | sort -r
+wc -m roggenrola2 > roggenrola2 2>&1
+ls -ltr $(grep -rl "po" .) 2>&1
