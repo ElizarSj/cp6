@@ -23,8 +23,8 @@ mkdir piloswine
 mkdir hypno
 touch dratini
  cd ..
-echo "satk=4" sdef=5 spd=4 >> totodle
-echo -e "Тип диеты \n Carnivore" >> biborel/scizor
+echo "satk=4 sdef=5 spd=4" >> totodle
+echo -e "Тип диеты \n Carnivore" >> biborel4/scizor
 echo -e "Способности Dark Art Intimidate Quick \n Feet" >> mightyena
 echo "ЖиветCave Forest" >> mismagius
 echo -e "Weght=107.4 height=55.0 \n atk=12 def=8" >> granbull
@@ -75,3 +75,8 @@ cat granbull 2>&1 | sort
 ls -R corphish1 | grep -v "^corphish1$" | sort -r
 wc -m roggenrola2 > roggenrola2 2>&1
 ls -ltr $(grep -rl "po" .) 2>&1
+rm ./granbull3
+rm ./ lab0/rampardos6/dratini
+rm Copy_97
+rm lab0/rampardos6/dratiniroggenro
+rm bibarel*
