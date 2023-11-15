@@ -55,7 +55,7 @@ chmod 524 piloswine
 chmod 305 hypno
 chmod 640 dratini
 cd ..
-ln  rampardos6/dratiniroggenrola roggenrola2
+ln roggenrola2 rampardos6/dratiniroggenrola
 ln –s Copy_97 corphish1
 ln –s bibarel4/scizorroggenrola roggenrola2
 bibarel4/scizor bibarel4/scizor > politoed0_56
